@@ -89,7 +89,7 @@ namespace bgfx
 #if BX_PLATFORM_WINDOWS
 					"renderdoc.dll"
 #else
-					"./librenderdoc.so"
+					"/home/google/Downloads/renderdoc_1.21/lib/librenderdoc.so"
 #endif // BX_PLATFORM_WINDOWS
 					);
 		}
