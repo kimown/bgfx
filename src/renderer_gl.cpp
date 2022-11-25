@@ -7453,7 +7453,7 @@ namespace bgfx { namespace gl
 
 	void RendererContextGL::submit(Frame* _render, ClearQuad& _clearQuad, TextVideoMemBlitter& _textVideoMemBlitter)
 	{
-		if (true)
+		if (_render->m_capture)
 		{
 			renderDocTriggerCapture();
 		}
